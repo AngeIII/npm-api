@@ -1,0 +1,139 @@
+{
+  "name": "@visualcomposer/api",
+  "version": "1.0.0",
+  "description": "Visual Composer node modules collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pavel I",
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AngeIII/npm-api.git"
+  },
+  "keywords": [
+    "npm",
+    "visualcomposer",
+    "vcwb"
+  ],
+  "bugs": {
+    "url": "https://github.com/AngeIII/npm-api/issues"
+  },
+  "homepage": "https://github.com/AngeIII/npm-api#readme",
+  "engines": {
+    "node": ">=8",
+    "npm": ">=6.1"
+  },
+  "dependencies": {
+    "@babel/cli": "7.4.4",
+    "@babel/core": "7.4.5",
+    "@babel/plugin-proposal-class-properties": "7.4.4",
+    "@babel/plugin-transform-runtime": "7.4.4",
+    "@babel/preset-env": "7.4.5",
+    "@babel/preset-react": "7.0.0",
+    "@babel/register": "7.4.4",
+    "@babel/runtime": "7.4.5",
+    "babel-eslint": "10.0.1",
+    "babel-loader": "8.0.6",
+    "babel-jest": "24.8.0",
+    "cypress": "3.3.1",
+    "jest-cli": "24.8.0",
+    "classnames": "2.2.6",
+    "color-blend": "git://github.com/wpbakery/color-blend.git#5dd059a6dbdc6754f53f4eca09800953534d8322",
+    "css-loader": "2.1.1",
+    "eslint": "5.16.0",
+    "exports-loader": "0.7.0",
+    "extract-text-webpack-plugin": "4.0.0-beta.0",
+    "file-loader": "4.0.0",
+    "fs-extra": "8.0.1",
+    "less-loader": "5.0.0",
+    "postcss-functions": "git://github.com/wpbakery/postcss-functions.git#8aa5a44c1c07c522f704ceaa6794b74682e444f1",
+    "postcss-prefix-url": "git://github.com/wpbakery/postcss-prefix-url.git#60f177340ab35fce12cf4172752bd484ece3c7df",
+    "standard": "12.0.1",
+    "style-loader": "0.23.1",
+    "terser-webpack-plugin": "1.3.0",
+    "tinycolor2": "1.4.1",
+    "url-loader": "2.0.0",
+    "vc-webpack-vendors": "1.0.2",
+    "virtual-module-webpack-plugin": "0.4.1",
+    "webpack": "4.33.0",
+    "webpack-cli": "3.3.2",
+    "autoprefixer": "9.6.0",
+    "base-64": "0.1.0",
+    "combokeys": "3.0.1",
+    "csslint": "1.0.5",
+    "event-emitter": "0.3.5",
+    "form-serialize": "0.7.2",
+    "identity-obj-proxy": "3.0.0",
+    "immutable": "4.0.0-rc.12",
+    "imports-loader": "0.8.0",
+    "less": "3.9.0",
+    "lodash": "4.17.11",
+    "mobile-detect": "1.4.3",
+    "object-hash": "1.3.1",
+    "pako": "1.0.10",
+    "perfect-scrollbar": "1.4.0",
+    "postcss": "7.0.17",
+    "postcss-advanced-variables": "3.0.0",
+    "postcss-clean": "1.1.0",
+    "postcss-color-function": "4.1.0",
+    "postcss-conditionals": "2.1.0",
+    "postcss-custom-media": "7.0.8",
+    "postcss-custom-properties": "8.0.10",
+    "postcss-each": "0.10.0",
+    "postcss-loader": "3.0.0",
+    "postcss-math": "0.0.10",
+    "postcss-nested": "4.1.2",
+    "prop-types": "15.7.2",
+    "raw-loader": "3.0.0",
+    "react": "16.8.6",
+    "react-addons-shallow-compare": "15.6.2",
+    "react-color": "2.17.3",
+    "react-custom-scrollbars": "4.2.1",
+    "react-datepicker": "2.7.0",
+    "react-dom": "16.8.6",
+    "react-slick": "0.24.0",
+    "react-sortable-hoc": "1.9.1",
+    "react-test-renderer": "16.8.6",
+    "react-textarea-autosize": "7.1.0",
+    "react-tinymce": "0.7.0",
+    "reactcss": "1.2.3",
+    "simple-react-modal": "0.5.1",
+    "striptags": "3.1.1",
+    "vc-cake": "0.8.0",
+    "webfontloader": "1.6.28"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-transform-runtime",
+      "@babel/plugin-proposal-class-properties"
+    ]
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "ignore": [
+      "public/config/",
+      "public/sources/assetsLibrary",
+      "tests/",
+      "tools/"
+    ],
+    "rules": {
+      "jsx-quotes": [
+        2,
+        "prefer-single"
+      ],
+      "import/no-webpack-loader-syntax": "off"
+    }
+  },
+  "resolutions": {
+    "postcss": "7.0.17",
+    "css-loader": "2.1.1",
+    "color-name": "1.1.4",
+    "eslint": "5.16.0"
+  }
+}
